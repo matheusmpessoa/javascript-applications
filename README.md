@@ -1,12 +1,16 @@
-# somar-lista-javascript
- Somando itens de uma lista utilizando Javascript puro
+# javascript-pure-example
+ Aplicações em que utilizam JavaScript puro. 
+ 
+ HTML5/CSS3/Boostrap utilizados apenas para interface.
 
-### Version
-1.0.0
+## Aplicações contidas neste repositório
+
+- list-table
+- somar-lista
 
 ### Linguagens utilizadas
 * HTML5
-* Javascript
+* JavaScript
 
 License
 ----
