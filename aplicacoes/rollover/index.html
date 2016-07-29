@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Pure Example</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <!-- Scripts -->
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Rollover</h1>
+
+        <p>Clique no botão abaixo</p>
+        <a href="http://matheusmpessoa.github.io/#/" target="_blank"
+           onmouseover="mudaImagem('botao','img/amarelo.gif');"
+           onmouseout="mudaImagem('botao','img/verde.gif');"
+           onclick="mudaImagem('botao','img/vermelho.gif');">
+            <img name="botao" src="img/verde.gif" alt="" border="0" width="162" height="43">
+        </a>
+
+    </body>
+</html>
