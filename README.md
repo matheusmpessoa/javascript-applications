@@ -1,11 +1,13 @@
 # javascript-pure-example
  Aplicações em que utilizam JavaScript puro.
  
- HTML5/CSS3/Boostrap utilizados apenas para interface.
+ HTML5/CSS3/Boostrap utilizados apenas para interface e interação com o script.
 
 ## Aplicações contidas neste repositório
 
+- __[content-script](aplicacoes/content-script)__
 - __[data](aplicacoes/data)__
+- __[inner-html](aplicacoes/inner-html)__
 - __[list-table](aplicacoes/list-table)__
 - __[popup](aplicacoes/popup)__
 - __[rollover](aplicacoes/rollover)__
