@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Applications</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Opção 1 Local -->
+    <!-- Clipboard.js LOCAL -->
+    <script src="clipboard.min.js"></script>
+
+    <!-- Opção 2 api web -->
+    <!-- Clipboard.js API -->
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.5/clipboard.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Copy to clipboard utilizando a API CLIPBOARD.JS</h1>
+
+        <p>Clique nos botões disponíveis e depois cole na área de teste</p>
+
+        <!-- Copy to clipboard / Clipboard.js -->
+        <div>
+            <!-- 1. Definição de conteudo a ser obtido o conteudo (inner) -->
+            <button class="btn" class="btn btn-primary" data-clipboard-text="ITEM 1">Copy</button>
+            <button class="btn" class="btn btn-success" data-clipboard-text="ITEM 2">Copy</button>
+            <button class="btn" class="btn btn-warning" data-clipboard-text="ITEM 3">Copy</button>
+            <!-- 2. Incluir library -->
+            <script src="js/clipboard/dist/clipboard.min.js"></script>
+            <!-- 3. Passa a instância do clipboard passando a string selector -->
+            <script>
+                var clipboard = new Clipboard('.btn');
+                // console é opcional - usado apenas para teste
+                clipboard.on('success', function (e) {
+                    console.log(e);
+                });
+                clipboard.on('error', function (e) {
+                    console.log(e);
+                });
+            </script>
+            <!-- 4. Area de teste -->
+            <form class="form-inline">
+                <br>
+                <textarea class="form-control" rows="3" cols="50" placeholder="Teste aqui!"></textarea>
+                <input type="reset" class="btn btn-default" value="Reset">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

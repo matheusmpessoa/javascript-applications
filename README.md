@@ -1,12 +1,12 @@
-# javascript-pure-example
- Aplicações em que utilizam JavaScript puro.
+# javascript-applications
+ Aplicações em que utilizam JavaScript.
  
- HTML5/CSS3/Boostrap utilizados apenas para interface e interação com o script.
-
 ## Aplicações contidas neste repositório
-
 - __[content-script](aplicacoes/content-script)__
+- __[copy-to-clipboard](aplicacoes/copy-to-clipboard)__
 - __[data](aplicacoes/data)__
+- __[foreach](aplicacoes/foreach)__
+- __[impressao](aplicacoes/impressao)__
 - __[inner-html](aplicacoes/inner-html)__
 - __[list-table](aplicacoes/list-table)__
 - __[popup](aplicacoes/popup)__
@@ -18,11 +18,7 @@
 * JavaScript
 
 ### Frameworks utilizados
-* Bootstrap
+* Bootstrap 3
 
 ### API's utilizadas
 * Bootswatch
-
-License
-----
-MIT
