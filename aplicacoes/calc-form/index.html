@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Applications</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora via form</h1>
+
+        <form name="form1">
+            Valor 1:
+            <input type="text" name="valor1" class="form-control">
+            <br>
+            <br> Valor 2:
+            <input type="text" name="valor2" class="form-control">
+            <br>
+
+            <button class="btn btn-primary" onclick="somar()">Somar</button>
+            <button class="btn btn-primary" onclick="subtrair()">Subtrair</button>
+            <button class="btn btn-primary" onclick="multiplicar()">Multiplicar</button>
+            <button class="btn btn-primary" onclick="dividir()">Dividir</button>
+            <br>
+            <br>
+            <button class="btn btn-danger" type="reset" value="Reset">Reset</button>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>

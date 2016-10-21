@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Applications</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cálculo de IMC</h1>
+
+        <form name="form1">
+            Peso:
+            <input type="text" name="peso" class="form-control" maxlength="3">
+            <br>
+            <br> Altura:
+            <input type="text" name="altura" class="form-control" maxlength="4">
+            <br>
+        </form>
+        <br>
+        <button class="btn btn-primary" onclick="calcularIMC()">Calcular</button>
+
+        <p>IMC: </p>
+        <p id="p1"></p>
+    </div>
+</body>
+
+</html>
