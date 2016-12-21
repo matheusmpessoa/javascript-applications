@@ -2,6 +2,7 @@
  Aplicações em que utilizam JavaScript.
  
 ## Aplicações contidas neste repositório
+- __[100 numeros 3 e 5](aplicacoes/100numeros3e5)__
 - __[autenticacao](aplicacoes/autenticacao)__
 - __[calc-form](aplicacoes/calc-form)__
 - __[content-script](aplicacoes/content-script)__
